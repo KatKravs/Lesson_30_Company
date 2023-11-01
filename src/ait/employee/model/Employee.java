@@ -79,7 +79,7 @@ public abstract class Employee {
     public String toString() {
         final StringBuilder sb = new StringBuilder("Employee");
         sb.append(" id=").append(id);
-        sb.append(", firstNAme='").append(firstNAme).append('\'');
+        sb.append(", first_NAme='").append(firstNAme).append('\'');
         sb.append(", lastNAme='").append(lastNAme).append('\'');
         sb.append(", hours=").append(hours);
         sb.append(", salary=").append(calcSalary());
